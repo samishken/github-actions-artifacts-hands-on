@@ -28,6 +28,7 @@ jobs:
       uses: actions/download-artifact@v4
       with:
         name: hello-artifact
+        path: ./artifacts/
     
     - name: move file 
       run: mv hello.txt artifacts/
